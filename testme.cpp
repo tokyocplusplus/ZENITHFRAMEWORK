@@ -4,5 +4,6 @@
 int main()
 {
 	init();
+	std::cout << "test commit";
 	return 0;
 }
