@@ -4,6 +4,7 @@
 int main()
 {
 	init();
-	std::cout << "test commit";
+	std::cout << "test commit" << std::endl;
+	runme();
 	return 0;
 }

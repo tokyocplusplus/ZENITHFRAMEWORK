@@ -3,5 +3,10 @@
 
 void init()
 {
-	std::cout << "hi";
+	std::cout << "hi\n";
+}
+
+void runme()
+{
+	std::cout << "testingggg\n";
 }
