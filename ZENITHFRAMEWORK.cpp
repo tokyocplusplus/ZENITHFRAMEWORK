@@ -10,9 +10,9 @@ void init()
 	std::cout << "DONE\n";
 }
 
-GLFWwindow* createwindow(int width, int height, const char* title, GLFWmonitor* monitor)
+GLFWwindow* createwindow(int width, int height, const char* title)
 {
-	glfwCreateWindow(width,height,title,monitor,NULL);
+	return glfwCreateWindow(width,height,title,NULL,NULL);
 }
 
 GLFWmonitor* fullscreen_func()

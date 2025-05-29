@@ -4,13 +4,14 @@
 int main()
 {
 	init();
-	ZFwindow* window = createwindow(800,600,"title",fullscreen_func());
+	ZFwindow* window = createwindow(800,600,"title");
+	glfwMakeContextCurrent(window);
 	while(!glfwWindowShouldClose(window))
 	{
 		glfwPollEvents();
 		glfwSwapBuffers(window);
 	}
-	glfwDestroyWindow(window);
+	//glfwDestroyWindow(window);
 	glfwTerminate();
 	return EXIT_SUCCESS;
 }

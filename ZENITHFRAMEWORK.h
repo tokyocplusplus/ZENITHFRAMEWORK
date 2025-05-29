@@ -5,6 +5,6 @@ typedef GLFWwindow ZFwindow;
 
 void init();
 
-GLFWwindow* createwindow(int width, int height, const char* title, GLFWmonitor* monitor);
+GLFWwindow* createwindow(int width, int height, const char* title);
 
 GLFWmonitor* fullscreen_func();
