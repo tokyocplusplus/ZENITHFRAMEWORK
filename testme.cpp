@@ -1,4 +1,4 @@
-#include"ZIML.h"
+#include"ZIMF.h"
 #include<iostream>
 //zenith's integrated multimedia library
 

@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <GLFW/glfw3.h>
-// zenith's integrated multimedia library
+// zenith's integrated multimedia framework/library
 
 typedef GLFWwindow ZFwindow;
 
