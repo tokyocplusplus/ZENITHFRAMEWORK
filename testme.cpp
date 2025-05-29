@@ -1,17 +1,16 @@
+#include"ZIML.h"
 #include<iostream>
-#include"ZENITHFRAMEWORK.h"
+//zenith's integrated multimedia library
 
 int main()
 {
 	init();
 	ZFwindow* window = createwindow(800,600,"title");
-	glfwMakeContextCurrent(window);
-	while(!glfwWindowShouldClose(window))
+	initcontext(window);
+	while(!windowshouldclose(window))
 	{
-		glfwPollEvents();
-		glfwSwapBuffers(window);
+		swapbuffers(window);
 	}
 	//glfwDestroyWindow(window);
-	glfwTerminate();
-	return EXIT_SUCCESS;
+	return 0;
 }
