@@ -4,7 +4,13 @@
 int main()
 {
 	init();
-	std::cout << "test commit" << std::endl;
-	runme();
-	return 0;
+	ZFwindow* window = createwindow(800,600,"title",fullscreen_func());
+	while(!glfwWindowShouldClose(window))
+	{
+		glfwPollEvents();
+		glfwSwapBuffers(window);
+	}
+	glfwDestroyWindow(window);
+	glfwTerminate();
+	return EXIT_SUCCESS;
 }

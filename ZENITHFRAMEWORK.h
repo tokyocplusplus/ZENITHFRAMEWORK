@@ -1,3 +1,10 @@
 #include<iostream>
+#include<GLFW/glfw3.h>
+
+typedef GLFWwindow ZFwindow;
+
 void init();
-void runme();
+
+GLFWwindow* createwindow(int width, int height, const char* title, GLFWmonitor* monitor);
+
+GLFWmonitor* fullscreen_func();
