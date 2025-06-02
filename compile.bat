@@ -1,2 +1,2 @@
 @echo off
-g++ *.cpp -o main.exe -lglfw3dll -lgdi32 -lopengl32
+g++ *.c *.cpp -o main.exe -lglfw3dll -lgdi32 -lopengl32

@@ -2,6 +2,7 @@
 #define ZIML_H
 
 #include <iostream>
+#include "glad.h"
 #include <GLFW/glfw3.h>
 // zenith's integrated multimedia framework/library
 
